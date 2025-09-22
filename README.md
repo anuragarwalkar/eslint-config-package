@@ -1,4 +1,4 @@
-# @your-org/eslint-config
+# eslint-config
 
 A shareable ESLint configuration for React Native projects with TypeScript, designed to provide consistent code quality and style across multiple repositories.
 
@@ -15,13 +15,13 @@ A shareable ESLint configuration for React Native projects with TypeScript, desi
 ## Installation
 
 ```bash
-npm install --save-dev @your-org/eslint-config eslint
+npm install --save-dev eslint-config-anurag eslint
 ```
 
 Or with yarn:
 
 ```bash
-yarn add --dev @your-org/eslint-config eslint
+yarn add --dev eslint-config-anurag eslint
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ Add the configuration to your `.eslintrc.js` file:
 
 ```javascript
 module.exports = {
-  extends: ['@your-org/eslint-config'],
+  extends: ['eslint-config-anurag'],
   // Add any project-specific overrides here
 };
 ```
@@ -40,7 +40,7 @@ Or in your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": ["@your-org/eslint-config"]
+    "extends": ["eslint-config-anurag"]
   }
 }
 ```
@@ -71,7 +71,7 @@ You can override any rules in your local ESLint configuration:
 
 ```javascript
 module.exports = {
-  extends: ['@your-org/eslint-config'],
+  extends: ['eslint-config-anurag'],
   rules: {
     // Override specific rules for your project
     'max-lines': ['error', { max: 500 }],
