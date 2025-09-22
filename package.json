@@ -1,0 +1,46 @@
+{
+  "name": "@your-org/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint configuration for React Native projects with TypeScript",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "react-native",
+    "typescript",
+    "jest",
+    "accessibility"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-expo": "^7.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-jest": "^27.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native-a11y": "^3.3.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
